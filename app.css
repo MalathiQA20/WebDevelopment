@@ -1,0 +1,40 @@
+div {
+    width:200px;
+    height: 200px;
+    background-color: pink;
+}
+
+#one{
+    background-color: coral;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#Two{
+    background-color: cornflowerblue;
+    border-color: chartreuse;
+    border-width: 3px;
+    border-style: inset;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#Three{
+    background-color: darkgreen;
+    /*shorthand property*/
+    border: 4px lightseagreen dashed;
+    border-left: solid;
+    border-radius: 10% 20%;
+    padding:0px 12px;
+    margin-bottom: 15px;
+
+}
+
+button{
+  padding:0px 10px;
+}

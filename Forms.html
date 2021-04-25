@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form action="">
+        <p><label for="username">UserName</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="month">Month</label>
+            <input id="month" type="month" name="month">
+        </p>
+        <p>
+            <label for="phoneno">Phonenumber</label>
+            <input id="phoneno" type="tel" placeholder="phoneno" name="phoneno">
+        </p>
+        <button>Submit</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search</button>
+    </form>
+
+    <h2>More Inputs</h2>
+    <form action="/search">
+
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree</label>
+        <p>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="xs">XS</label>
+
+            <input type="radio" name="size" id="m" value="m">
+            <label for="m">M</label>
+
+            <input type="radio" name="size" id="l" value="l">
+            <label for="l">L</label>
+        </p>
+        <p>
+            <label for="meal">Please select your Entree</label>
+            <select id="meal" id="meal">
+                <option value="Masal Dosa">Masal Dosa</option>
+                <option value="Vegetable Parotta">Vegetable Parotta</option>
+                <option value="Pongal">Pongal</option>
+            </select>
+        </p>
+        <p>
+            <label for="ghee">Amount of Ghee</label>
+            <input type="range" name="ghee" id="ghee" min="1" max="10">
+
+        </p>
+        <p>
+            <label for="story">Special Request</label>
+            <textarea id="story" name="story" rows="10" cols="30">
+
+            </textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>
